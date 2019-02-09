@@ -1,0 +1,22 @@
+ChageLog
+
+*HideTheFile 0.0		(State :- Working / Stable)
+	-GUI implementation of Core Classes(FilePutter , FileGetter).
+	-jpg,gif,bmp extension Support.
+	-Unresolved: Progress bar Update Causes ArithmaticException: Divide By Zero
+
+
+*HideTheFile 0.1		(State :- Working / stable)
+	-Only bmp Extension is Allowed.fixed malfunctioning due to Lossey Compression of gif and jpg.
+
+
+*HideTheFile 0.2		(State :- Working / Stable)
+	-Fixed issue of FileChooser Default FileNames.Default name is extracted from imgFile.
+
+
+*HideTheFile 0.3		(State :- Working / Stable)
+	-Attempt to Store FileExtension Information as FileData in CoverImage For Ease of Retrival.
+	-Almost Redesigned GUI.
+	-Simplified operation by removing target file location and name selection fields.
+	-Metadata is included like regular data.
+	-Added support for png file size.
